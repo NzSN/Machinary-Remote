@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "Machinary-Remote:lib"
+
+    - path: "./app/Main.hs"
+      component: "Machinary-Remote:exe:Machinary-Remote-exe"
+
+    - path: "./app/Paths_Machinary_Remote.hs"
+      component: "Machinary-Remote:exe:Machinary-Remote-exe"
+
+    - path: "./test"
+      component: "Machinary-Remote:test:Machinary-Remote-test"
